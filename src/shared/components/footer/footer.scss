@@ -1,0 +1,28 @@
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.footer-darkmode {
+    background-color: #444444;
+    text-align: center;
+    padding: 20px 30px;
+
+    h4 {
+        color: white;
+    }
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.footer-img-wrapper {
+    img {
+        width: 20px;
+        margin-right: 10px;
+    }
+}

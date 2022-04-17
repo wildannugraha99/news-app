@@ -1,0 +1,128 @@
+.News {
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.News-caption-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.News-caption {
+    margin: 0;
+    font-size: medium;
+
+    @media (min-width: 992px) {
+        font-size: large;
+    }
+}
+
+.News-list-link {
+    text-decoration: none;
+}
+
+.News-tag-wrapper {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.News-list {
+    overflow: auto;
+    width: 100%;
+    padding: 0 15px;
+
+    @media (min-width: 992px) {
+        width: 900px;
+        height: 80vh;
+        padding: 0 20px;
+    }
+}
+
+.News-img-holder {
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+
+    @media (min-width: 992px) {
+        width: 300px;
+        margin-right: 20px;
+    }
+}
+
+.News-thumb-img {
+    width: 100%;
+    line-height: 0;
+
+    @media (min-width: 992px) {
+        width: 300px;
+        height: 100%;
+    }
+}
+
+.News-title {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 100%;
+
+    @media (min-width: 992px) {
+        font-size: 120%;
+    }
+}
+
+.News-date {
+    margin-bottom: 10px;
+    display: flex;
+    color: gray;
+}
+
+.News-list-content--flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: black;
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+    }
+}
+
+.News-empty-text {
+    margin-bottom: 80px;
+}
+
+.News-switch {
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.News-darkmode {
+    background-color: #444444;
+    border: 1px solid #444444;
+    border-radius: 0;
+
+    h3,
+    small,
+    p {
+        color: white;
+    }
+
+    .News-caption-wrapper {
+        background-color: #171717;
+        border: 1px solid #171717;
+        color: white;
+
+        .News-caption {
+            color: white;
+        }
+
+    }
+}

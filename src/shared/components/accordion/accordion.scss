@@ -1,0 +1,45 @@
+.accordion {
+    width: 100%;
+    margin-bottom: 10px;
+
+    @media(min-width: 1024px) {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+}
+
+.accordion-darkmode {
+    width: 100%;
+    margin-bottom: 10px;
+
+    @media(min-width: 1024px) {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .ant-collapse {
+        border: 1px solid #444444;
+    }
+
+    .ant-collapse-item {
+        border: 1px solid #444444 !important;
+        border-radius: 0 !important;
+    }
+
+    .ant-collapse-header {
+        background-color: #171717;
+        border: 1px solid #444444;
+        color: white !important;
+        border-radius: 0 !important;
+    }
+
+    .ant-collapse-content {
+        background-color: #444444;
+        border: 1px solid #444444;
+        border-radius: 0 !important;
+
+        span {
+            color: white;
+        }
+    }
+}
